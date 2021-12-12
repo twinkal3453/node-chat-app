@@ -156,6 +156,12 @@ button:disabled {
   display: none;
 }
 
+@media only screen and (max-width: 600px) {
+  .chat__sidebar {
+    width: 120px;
+  }
+}
+
 /* Chat Sidebar Styles */
 
 .room-title {
